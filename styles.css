@@ -1,0 +1,185 @@
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: beige;
+}
+
+header {
+    background-color: chocolate;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+    header img {
+        margin-left: .75rem;
+    }
+
+h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+h2 {
+    color: chocolate;
+    font-size: 2rem;
+    font-style: italic;
+    opacity: .8;  
+    text-align: center; 
+}
+
+.menu {
+    display: flex;
+}
+
+    .menu li {
+        display: inline-block;
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 1rem;
+        padding-left: 3.5rem;
+    }
+
+    .menu img {
+        width: 1rem;
+    }
+
+    .menu a {
+        text-decoration: none;
+        vertical-align: bottom;
+        line-height: 1.6;
+        font-size: 1.25rem;
+        color: black;
+    }
+
+.main-content {
+    background-image: url('C:/projects/The-Scrapes/resources/the-scrapes-hero.png');
+    background-size: 100% 100%;
+    height: 1200px;
+    margin: -1.5rem auto;
+    
+}
+
+.audio-section {
+    position: relative;
+    top: 25%;
+    height: 25%;
+    text-align: center;
+}
+
+.audio-clips {
+    display: flex;
+    justify-content: center;
+}
+
+figcaption {
+    color: white;
+    font-style: italic;
+    margin-bottom: 5%;
+    opacity: .8;
+}
+
+img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.about-us-section {
+    position: relative;
+    top: 12.5rem;
+}
+    .about-us-section p {
+        color: white;
+        font-size: 1.25rem;
+        width: 65rem;
+        margin: 0 auto;
+        font-style: italic;
+        letter-spacing: .1rem;
+        line-height: 1.5;
+    }    
+
+.band-info {
+    display: flex;
+    position: relative;
+    top: 15rem;
+    justify-content: center;
+}
+
+.info-container {
+    color: white;
+}
+
+    .info-container h2 {
+        text-align: left;
+        margin-bottom: .75rem;
+    }
+
+    .info-container ul {
+        padding: 0;
+    }
+
+    .info-container li {
+        list-style-type: none;
+        letter-spacing: .125rem;
+        font-style: italic;
+        margin-bottom: 3%;
+    }
+
+.shows {
+    margin-right: 2rem;
+}
+
+.band {
+    margin-left: 2rem;
+}
+
+footer {
+    background-color: chocolate;
+    font-size: 1.125rem;
+    margin-top: 1.125%;
+}
+
+    footer p {
+        margin-bottom: 0;
+        padding-left: 1%;
+    }
+
+@media only screen and (max-width: 1024px) {
+    .about-us-section p {
+        width: 55rem;
+        color: red;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .about-us-section p {
+        width: 55rem;
+        color: yellow;
+    }
+    
+    .main-content {
+        height: 800px;
+        margin: -1.5rem auto;
+    }
+}
+
+/*
+@media only screen and (max-width: 425px) {
+    
+
+    .about-us-section p {
+        width: 10rem;
+    }
+
+    .main-content {
+        height: 1800px;
+        margin: -1.5rem auto;
+    }
+}
+*/
