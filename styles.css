@@ -57,7 +57,7 @@ h2 {
     }
 
 .main-content {
-    background-image: url(the-scrapes-hero.png');
+    background-image: url('the-scrapes-hero.png');
     background-size: 100% 100%;
     height: 1200px;
     margin: -1.5rem auto;
