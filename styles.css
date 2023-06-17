@@ -152,14 +152,11 @@ footer {
 @media only screen and (max-width: 1024px) {
     .about-us-section p {
         width: 55rem;
-        color: red;
     }
 }
 
-
 @media only screen and (max-width: 768px) {
     .about-us-section p {
-        width: 55rem;
         color: yellow;
     }
     
@@ -169,12 +166,12 @@ footer {
     }
 }
 
-/*
 @media only screen and (max-width: 425px) {
     
 
     .about-us-section p {
-        width: 10rem;
+        width: 35rem;
+        color: green;
     }
 
     .main-content {
@@ -182,4 +179,3 @@ footer {
         margin: -1.5rem auto;
     }
 }
-*/
