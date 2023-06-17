@@ -161,14 +161,12 @@ footer {
     }
     
     .main-content {
-        height: 800px;
+        height: 1450px;
         margin: -1.5rem auto;
     }
 }
 
 @media only screen and (max-width: 425px) {
-    
-
     .about-us-section p {
         width: 35rem;
         color: green;
